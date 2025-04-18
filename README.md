@@ -10,6 +10,8 @@ notcat is a Python-based network utility tool similar to netcat, providing funct
 pip install pyfiglet
 ```
 
+If you want to use this script on a system that does not allow for external modules to be installed, simply delete the pyfiglet code in the script, and it will run the same.
+
 ## Usage
 
 Basic syntax:
