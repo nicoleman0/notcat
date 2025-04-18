@@ -31,13 +31,13 @@ python3 notcat.py -t target_host -p port [options]
 Listen for connections and start a command shell:
 
 ```bash
-python notcat.py -t 192.168.0.1 -p 5555 -l -c
+python3 notcat.py -t 192.168.0.1 -p 5555 -l -c
 ```
 
 Execute a command upon connection:
 
 ```bash
-python notcat.py -t 192.168.0.1 -p 5555 -l -e="cat /etc/passwd"
+python3 notcat.py -t 192.168.0.1 -p 5555 -l -e="cat /etc/passwd"
 ```
 
 ## Security Notice
